@@ -49,7 +49,7 @@ Proveer una API REST segura, eficiente y fácil de consumir que permita al front
 ## 📁 Arquitectura del proyecto
 
 ```
-Back/
+./
 ├── package.json
 ├── .gitignore
 ├── .env                          # Variables de entorno (no versionado)
@@ -83,7 +83,6 @@ Back/
 ```bash
 # 1. Clonar el repositorio
 git clone <url-del-repositorio>
-cd Back
 
 # 2. Instalar dependencias
 npm install
@@ -95,7 +94,7 @@ cp .env.example .env
 
 ### Variables de entorno
 
-Crear un archivo `.env` en la raíz de `Back/`:
+Crear un archivo `.env` en la raíz del proyecto:
 
 ```env
 # === Servidor ===
